@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.anoxsoft.basundharaneighborhood">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasundharaNeighborhood">
+        <activity
+            android:name=".BloodBank.BloodGroup.BloodFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacy.PharmacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Machanic.PlumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Machanic.GasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Machanic.ElectricActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BloodBank.BloodBankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

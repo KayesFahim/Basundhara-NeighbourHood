@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_blood_bank.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_bua.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_coffe_shop.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_electric.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_gas_mechanic.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_helpline.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_home_rent.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_hospital.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_plumber.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable-v24/icon_resturant.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable/box.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable/icon_blood_rquest.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/drawable/icon_pharmacy.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/Users/Hp/Documents/Projects/GItHub-Projetcts/Basundhara NeighbourHood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

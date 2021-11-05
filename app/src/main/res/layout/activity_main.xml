@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/basundhara_r_a_neighborhood"/>
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_below="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:paddingBottom="20dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="BloodRequest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="15dp"
+                android:textSize="20sp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_blood_rquest"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingEnd="15sp"
+                android:text="@string/blood_request"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="BloodBank"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_blood_bank"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:paddingEnd="20dp"
+                android:text="@string/blood_bank"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="FlatRent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_home_rent"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:paddingEnd="20dp"
+                android:text="@string/flat_rent"
+                tools:ignore="OnClick,RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="Hospital"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_hospital"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:paddingEnd="18dp"
+                android:text="@string/hospital"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="Pharmacy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_pharmacy"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingEnd="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/clinic_farmacy"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="Electritian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_electric"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingEnd="20dp"
+                android:textSize="20sp"
+                android:text="@string/electritian"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="Plumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_plumber"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:paddingEnd="18dp"
+                android:text="@string/plumber"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="GasMechanic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_gas_mechanic"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingEnd="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/gas_mechanic"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="Bua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:background="@drawable/box"
+                android:drawableTop="@drawable/icon_bua"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingEnd="20dp"
+                android:textSize="20sp"
+                android:text="@string/kajer_bua"
+                tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="Resturant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/box"
+                    android:drawableTop="@drawable/icon_resturant"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:paddingEnd="18dp"
+                    android:text="@string/resturant"
+                    tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="CoffeeShop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/box"
+                    android:drawableTop="@drawable/icon_coffe_shop"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textStyle="bold"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="@string/coffe_shop"
+                    tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="HelpLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/box"
+                    android:drawableTop="@drawable/icon_bua"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingEnd="20dp"
+                    android:textSize="20sp"
+                    android:text="@string/help_center"
+                    tools:ignore="OnClick,RtlSymmetry,UsingOnClickInXml" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

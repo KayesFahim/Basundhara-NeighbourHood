@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678360201335",
+    "project_id": "basundhara-neigborhood",
+    "storage_bucket": "basundhara-neigborhood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678360201335:android:984ca666b61b801a8bee72",
+        "android_client_info": {
+          "package_name": "tech.anoxsoft.basundharaneighborhood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678360201335-vd2ou7fgf5avdhoqn9dvd61ubctlo1j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.anoxsoft.basundharaneighborhood",
+            "certificate_hash": "34e0b244e48e638007ba415f0be73d9474c76002"
+          }
+        },
+        {
+          "client_id": "678360201335-ek2ftr5ahiivsg21pvu4meqobogm61js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdcYhh3KqqWXU2_ZFy8mk0L3xCiCYZ3LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678360201335-ek2ftr5ahiivsg21pvu4meqobogm61js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

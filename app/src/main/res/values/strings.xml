@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Basundhara Neighborhood</string>
+    <string name="blood_request">ব্লাড অনুরোধ</string>
+    <string name="blood_bank">ব্লাড ব্যাঙ্ক</string>
+    <string name="flat_rent">বাসা ভাড়া</string>
+    <string name="clinic_farmacy">ক্লিনিক/ফার্মেসি</string>
+    <string name="hospital">হাসপাতাল</string>
+    <string name="electritian">ইলেকট্রিক মিস্ত্রি</string>
+    <string name="plumber">সেনেটারি মিস্ত্রি</string>
+    <string name="gas_mechanic">গ্যাস মিস্ত্রি</string>
+    <string name="kajer_bua">কাজের বুয়া</string>
+    <string name="basundhara_r_a_neighborhood">Basundhara R/A Neighborhood</string>
+    <string name="resturant">রেস্তোরা</string>
+    <string name="coffe_shop">কফি শপ</string>
+    <string name="help_center">সাহায্য কেন্দ্র</string>
+</resources>
