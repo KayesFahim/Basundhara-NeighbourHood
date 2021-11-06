@@ -13,4 +13,8 @@
     <string name="resturant">রেস্তোরা</string>
     <string name="coffe_shop">কফি শপ</string>
     <string name="help_center">সাহায্য কেন্দ্র</string>
+    <string name="name">Name</string>
+    <string name="last_donation">last Donation</string>
+    <string name="location">Location</string>
+    <string name="age">Age</string>
 </resources>

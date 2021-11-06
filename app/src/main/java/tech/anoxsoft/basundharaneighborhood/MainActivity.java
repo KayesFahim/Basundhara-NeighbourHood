@@ -2,8 +2,11 @@ package tech.anoxsoft.basundharaneighborhood;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import tech.anoxsoft.basundharaneighborhood.BloodBank.BloodBankActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +17,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void BloodRequest(View view) {
+
     }
 
     public void BloodBank(View view) {
+        startActivity(new Intent(this, BloodBankActivity.class));
     }
 
     public void Hospital(View view) {

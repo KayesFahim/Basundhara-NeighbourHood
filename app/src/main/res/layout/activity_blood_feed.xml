@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BloodBank.BloodGroup.BloodFeedActivity">
+    android:layout_margin="10dp" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/serchbartop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <SearchView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Blood Donor"
+            android:id="@+id/ans"
+            android:layout_marginEnd="10dp"
+            android:textColor="#ffffff"
+            android:background="#22000000" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:id="@+id/apbead"
+            android:background="@drawable/button"
+            android:text="Be A Donor" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_below="@+id/serchbartop"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aptitle"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:text="Blood Group"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/aptitle"
+        android:id="@+id/bloodlist"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
